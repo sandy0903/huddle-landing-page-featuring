@@ -204,8 +204,12 @@ footer p:last-child{
         width:60%;
     
     }
-    header nav ul li .btn{
+    header nav ul li a.btn{
         padding:0.5rem 1rem;
+        
+        
+        
+       
     }
     header .main-content{
         flex-direction: column;
