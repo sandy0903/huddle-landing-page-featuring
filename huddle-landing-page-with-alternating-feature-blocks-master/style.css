@@ -199,14 +199,21 @@ footer p:last-child{
     }
     header nav ul{
         height:100%;
+        display:flex;
+        justify-content: space-between ;
     }
+    header nav ul li{
+        width:50%;
+    }
+    
     header nav ul li img{
-        width:60%;
+        width:80%;
     
     }
     header nav ul li a.btn{
-        padding:0.5rem 1rem;
-        
+        padding:0.5rem 2rem;
+        font-size:0.8rem;
+    }
         
         
        
