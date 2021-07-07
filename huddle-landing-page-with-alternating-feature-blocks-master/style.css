@@ -36,6 +36,7 @@ a{
     font-size:18px;
     position: relative;
 }
+
 header{
     min-height:100vh;
     background-image: url("./images/bg-hero-desktop.svg");
@@ -58,7 +59,6 @@ header .main-content{
     display:flex;
     margin-top:2rem;
     justify-content:space-between;
-
     align-items:center;
 
 }
@@ -193,14 +193,14 @@ footer p:last-child{
     right:0;
     bottom:2rem;
 }
+
 @media only screen and (max-width:385px) {
     header{
         background-image: url("./images/bg-hero-mobile.svg");
     }
     header nav ul{
         height:100%;
-        display:flex;
-        justify-content: space-between ;
+        
     }
     header nav ul li{
         width:50%;
@@ -217,7 +217,7 @@ footer p:last-child{
         
         
        
-    }
+    
     header .main-content{
         flex-direction: column;
         text-align:center;
